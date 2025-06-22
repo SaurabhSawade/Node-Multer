@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:4000';
+const API = 'https://node-multer-backend.onrender.com';
 
 function App() {
   const [file, setFile] = useState(null);
